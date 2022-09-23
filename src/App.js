@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './component/Header';
+import Content from './component/BTReactJS1/Content';
+import Item from './component/BTReactJS1/Item';
+import Footer from './component/BTReactJS1/Footer';
+import Glasses from './component/BTReactJS2/Glasses';
+import TitleGlasses from './component/BTReactJS2/TitleGlass';
+import Shoe from './component/BTReactJS3/Shoe';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* BT1 */}
+      {/* <Header/>
+      <Content/>
+      <Item/>
+  <Footer/> */}
+
+      {/* BT2
+      */}
+      {/* <TitleGlasses/>
+      <Glasses/> */}
+      {/* BT3 */}
+      <Shoe/>
     </div>
   );
 }
