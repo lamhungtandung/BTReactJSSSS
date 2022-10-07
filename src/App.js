@@ -7,10 +7,12 @@ import Footer from './component/BTReactJS1/Footer';
 import Glasses from './component/BTReactJS2/Glasses';
 import TitleGlasses from './component/BTReactJS2/TitleGlass';
 import Shoe from './component/BTReactJS3/Shoe';
+import BookSeat from './component/BTReactJS4/BookSeat';
 
 function App() {
   return (
     <div className="App">
+      <BookSeat/>
       {/* BT1 */}
       {/* <Header/>
       <Content/>
@@ -22,7 +24,7 @@ function App() {
       {/* <TitleGlasses/>
       <Glasses/> */}
       {/* BT3 */}
-      <Shoe/>
+      {/* <Shoe/> */}
     </div>
   );
 }
